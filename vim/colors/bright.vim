@@ -1,11 +1,3 @@
-" Vim color file
-" Maintainer:	Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
-" Last Change:	2001 May 25
-
-" This look like normal text editor.
-" This color scheme uses a light background.
-
-" First remove all existing highlighting.
 set background=light
 hi clear
 if exists("syntax_on")

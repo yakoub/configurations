@@ -1,18 +1,10 @@
-" Vim color file
-" Maintainer:  Bohdan Vlasyuk <bohdan@vstu.edu.ua>
-" Last Change:  2008 Jul 18
-
-" darkblue -- for those who prefer dark background
-" [note: looks bit uglier with come terminal palettes,
-" but is fine on default linux console palette.]
-
 set bg=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "darkblue"
+let colors_name = "dark"
 
 hi Normal    guifg=#c0c0c0 guibg=#000040            ctermfg=blue ctermbg=black
 hi ErrorMsg    guifg=#ffffff guibg=#287eff            ctermfg=white ctermbg=lightblue
